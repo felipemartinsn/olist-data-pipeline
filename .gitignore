@@ -1,0 +1,20 @@
+#ambiente
+.env
+venv/
+.venv/
+
+#dados brutos (arquivos grandes)
+data/raw/*.csv
+data/raw/*.zip
+
+#dbt 
+dbt/target/
+dbt/.user.yml
+
+#airflow 
+airflow/logs/
+airflow/plugins/
+
+#os
+.DS_Store
+Thumbs.db

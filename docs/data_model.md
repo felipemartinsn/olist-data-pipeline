@@ -1,14 +1,14 @@
 # Data Model
 
 ## Fact Table
-**fct_orders** — representa cada pedido realizado no marketplace.
+**fct_orders** — represents each order placed on the marketplace.
 
 ## Dimensions
-- **dim_customers** — dados do cliente
-- **dim_sellers** — dados do vendedor
-- **dim_products** — dados do produto
-- **dim_payments** — forma e valor do pagamento
-- **dim_geolocation** — localização geográfica
+- **dim_customers** — customer data
+- **dim_sellers** — seller data
+- **dim_products** — product data
+- **dim_payments** — payment method and value
+- **dim_geolocation** — geographic location
 
 ## Business Questions
 1. Which states purchase the most?
